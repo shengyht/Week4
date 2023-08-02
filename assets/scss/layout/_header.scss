@@ -1,4 +1,25 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  background-color: $primary;
+  font-family: 'Source Han Sans TW';
+  h1{
+    width: 80px;
+    height: 48.57px;
+  }
+}
+
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:16px 0;
+}
+.header-ul{
+  display: flex;
+  justify-content: space-between;
+  width:45%;
+}
+.header-li{
+  color:$white;
+  font-size: 20px;
+
 }
