@@ -1,0 +1,42 @@
+.customer{
+    text-align: center;
+    padding:80px 0;
+    h3{
+        padding-bottom: 48px;
+        color:$dark-red;
+        font-size: 48px;
+        font-weight: 700;
+    }
+}
+.customer-ul{
+    display: flex;
+    text-align: left;
+}
+.customer-li{
+    margin: 0 12px;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px #00000029;
+}
+.m16{
+    margin:16px;
+}
+.name{
+    padding-top: 16px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.message{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    height: 72px;
+}
+.date{
+    font-size: 14px;
+    font-weight: 400;
+    color:#707070;
+    margin-left: 16px;
+    padding-bottom: 16px;
+}

@@ -1,6 +1,5 @@
 .header{
   background-color: $primary;
-  font-family: 'Source Han Sans TW';
   h1{
     width: 80px;
     height: 48.57px;
@@ -16,10 +15,14 @@
 .header-ul{
   display: flex;
   justify-content: space-between;
-  width:45%;
 }
 .header-li{
-  color:$white;
   font-size: 20px;
-
+  padding-left: 64px;
+  a{
+    color:$white;
+  }
+  a:hover{
+    font-weight: 700;
+  }
 }

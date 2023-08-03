@@ -1,0 +1,53 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: $pink;
+}
+.contact-wrap{
+    width: 636px;
+    padding:80px 0;
+    h3{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        color:$dark-red;
+        padding-bottom: 48px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }
+    label{
+        text-align: start;
+        font-size: 16px;
+    }
+}
+.form{
+    width: 636px;
+    height: 36px;
+    margin-bottom: 16px;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+
+}
+.mb-48 {
+    margin-bottom: 48px;
+}
+.send{
+    color:$white;
+    background-color: $primary;
+    font-size: 16px;
+    font-weight: 700;
+    padding:16px 176px;
+}
+.send:hover{
+    color:$primary;
+    background-color: $white;
+    border:3px solid $primary;
+}
+.tac{
+    text-align: center;
+}

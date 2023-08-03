@@ -1,7 +1,8 @@
 .footer{
   background: $primary;
   color:$white;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
+  padding:32px 0;
 }
 .footer-ul{
   display: flex;
@@ -11,10 +12,17 @@
 .footer-nav{
   display: flex;
   justify-content: space-between;
-  width:150%;
+  
 }
 .nav-li{
-  font-size: 20px;
+  font-size: 16px;
+  padding-right: 48px;
+  a{
+    color:$white;
+  }
+  a:hover{
+    font-weight: 700;
+  }
 }
 .icon{
   width: 48px;
@@ -24,10 +32,28 @@
 .info{
   font-size: 36px;
   font-weight: 400;
+  padding-bottom: 8px;
 }
 .bb{
   border-bottom: 1px solid $white;
   padding-bottom:32px;
+}
+.footer-icon{
+  width: 36px;
+  height: 36px;
+}
+.footer-b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+}
+.footer-service{
+  display: flex;
+  justify-content: space-between;
+  li{
+    padding-left: 48px;
+  }
 }
 .copyright{
   font-size: 16px;

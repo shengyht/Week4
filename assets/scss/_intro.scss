@@ -1,0 +1,35 @@
+.intro{
+    text-align: center;
+    padding:80px 0;
+    background-color:$pink;
+    h3{
+        font-size: 48px;
+        color:$dark-red;
+        padding-bottom: 32px;
+        font-weight: 700;
+    }
+}
+.intro-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-li{
+    width: 30%;
+    padding: 0 12px;
+    img{
+        padding-bottom: 16px;
+        width: 83.83px;
+        height: 83.83px;
+    }
+}
+.about{
+    font-size: 24px;
+    font-weight: 700;
+    color:$dark-red;
+    padding-bottom: 8px;
+}
+.detail{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}

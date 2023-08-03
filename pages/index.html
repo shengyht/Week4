@@ -7,114 +7,157 @@
     <title>index</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
   </head>
   <body>
     <%- include('./layout/header'); -%>
 
     <div class="banner">
-      <p>Promise-Desert 2020 早春系列</p>
-      <h2>看得清，才能看得遠</h2>
-      <a href="#">立即購買</a>
+      <div class="banner-wrap container">
+        <p class="slogan-s">Promise-Desert 2020 早春系列</p>
+        <h2 class="slogan-b">看得清，才能看得遠</h2>
+        <a class="buy" href="#">立即購買</a>
+      </div>
   </div>
   <div class="intro">
+    <div class="container">
       <h3>用專業的心，做專業的事</h3>
-      <ul>
-          <li>
+      <ul class="intro-ul">
+          <li class="intro-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section2-1.png?raw=true" alt="money">
-              <p>單一價格</p>
-              <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+              <p class="about">單一價格</p>
+              <p class="detail">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
           </li>
-          <li>
+          <li class="intro-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section2-2.png?raw=true" alt="time">
-              <p>20 分鐘即可取件</p>
-              <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+              <p class="about">20 分鐘即可取件</p>
+              <p class="detail">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
           </li>
-          <li>
+          <li class="intro-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section2-3.png?raw=true" alt="fav">
-              <p>安心售後服務</p>
-              <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+              <p class="about">安心售後服務</p>
+              <p class="detail">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
           </li>
-          <li>
+          <li class="intro-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-sectioin2-4.png?raw=true" alt="glasses">
-              <p>關於鏡片</p>
-              <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+              <p class="about">關於鏡片</p>
+              <p class="detail">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
           </li>
       </ul>
+    </div>
+      
   </div>
   <div class="classic">
+    <div class="container">
       <h3>經典系列鏡框</h3>
-      <ul>
-          <li>
+      <ul class="classic-ul">
+          <li class="classic-li">
+            <div class="classic-pic-wrap">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-1.png?raw=true" alt="Optical">
-              <p>OPTICAL</p>
+            </div>
+              <p><a href="#">OPTICAL</a></p>
           </li>
-          <li>
+          <li class="classic-li">
+            <div class="classic-pic-wrap">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-2.png?raw=true" alt="glasses">
-              <p>SUNGLASSES</p>
+            </div>
+              <p><a href="#">SUNGLASSES</a></p>
           </li>
-          <li>
+          <li class="classic-li">
+            <div class="classic-pic-wrap">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-3.png?raw=true" alt="FUNCTIONAL">
-              <p>FUNCTIONAL</p>
+            </div>
+              <p><a href="#">FUNCTIONAL</a></p>
           </li>
       </ul>
+    </div>
   </div>
   <div class="co-branding">
+    <div class="container">
       <h3>聯名設計鏡框</h3>
-      <ul>
-          <li>
+      <ul class="co-branding-ul">
+          <li class="co-branding-li">
+            <div class="brand-wrap">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true" alt="DOUBLE A+">
-                  <p>DOUBLE A+</p>
+            </div>
+              <p>DOUBLE A+</p>
           </li>
-          <li>
+          <li class="co-branding-li">
+            <div class="brand-wrap">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true" alt="YOUTH">
-                  <p>YOUTH</p>
+            </div>
+              <p>YOUTH</p>
           </li>
       </ul>
+    </div>
   </div>
   <div class="customer">
+    <div class="container">
       <h3>顧客推薦</h3>
-      <ul>
-          <li>
+      <ul class="customer-ul">
+          <li class="customer-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-1.png?raw=true" alt="Jessy">
-                  <p>Jessy</p>
-                  <p>眼鏡品質優良，下次還會想來這邊購買！</p>
-                  <p>2021/06/20</p>
+                <div class="m16">
+                  <p class="name">Jessy</p>
+                  <p class="message">眼鏡品質優良，下次還會想來這邊購買！</p>
+                </div>
+                <p class="date">2021/06/20</p>
           </li>
-          <li>
+          <li class="customer-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-2.png?raw=true" alt="凱倫">
-                  <p>凱倫</p>
-                  <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
-                  <p>2021/04/18</p>
+              <div class="m16">
+                  <p class="name">凱倫</p>
+                  <p class="message">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+              </div>
+              <p class="date">2021/04/18</p>
           </li>
-          <li>
+          <li class="customer-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-3.png?raw=true" alt="悠悠">
-                  <p>悠悠</p>
-                  <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
-                  <p>2020/12/25</p>
+              <div class="m16">
+                  <p class="name">悠悠</p>
+                  <p class="message">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+              </div>
+              <p class="date">2020/12/25</p>
           </li>
-          <li>
+          <li class="customer-li">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-4.png?raw=true" alt="Kyuan">
-                  <p>Kyuan</p>
-                  <p>服務很好，品質沒有任何問題，非常喜歡。</p>
-                  <p>2020/10/31</p>
+              <div class="m16">
+                  <p class="name">Kyuan</p>
+                  <p class="message">服務很好，品質沒有任何問題，非常喜歡。</p>
+              </div>
+              <p class="date">2020/10/31</p>
           </li>
       </ul>
+    </div>
   </div>
   <div class="contact">
-      <h3>聯絡我們</h3>
+    <div class="contact-wrap container">
+        <h3>聯絡我們</h3>
       <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-      <label for="">姓名</label>
-      <input type="text" placeholder="陳小明">
-      <label for="">聯絡電話</label>
-      <input type="text" placeholder="0912-345-678">
-      <label for="">電子郵件</label>
-      <input type="text" placeholder="example@email.com">
-      <label for="">意見反應</label>
-      <input type="text" placeholder="請輸入您的意見">
-      <input type="checkbox">
-      <a href="#">確認送出</a>
+      <label for="name">姓名</label>
+      <br>
+      <input class="form" type="text" placeholder="陳小明">
+      <br>
+      <label for="tel">聯絡電話</label>
+      <br>
+      <input class="form" type="text" placeholder="0912-345-678">
+      <br>
+      <label for="email">電子郵件</label>
+      <br>
+      <input class="form" type="text" placeholder="example@email.com">
+      <br>
+      <label class="opinion" for="opinion">意見反應</label>
+      <br>
+      <input class="form" type="text" placeholder="請輸入您的意見">
+      <br>
+      <input class="checkbox mb-48" type="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+      <br>
+      <div class="tac">
+        <a class="send tac" href="#">確認送出</a>
+      </div>
+    </div>
   </div>      
     
     <%- include('./layout/footer'); -%>
