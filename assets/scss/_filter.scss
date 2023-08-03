@@ -1,0 +1,23 @@
+.filter-ul{
+    display: flex;
+    justify-content: center;
+    a{
+        color:#000000;
+    }
+    .filter-li{
+        text-align: center;
+        padding: 24px 0;
+        border: 1px solid #DCDCDC;
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        width:432px;
+    }
+    .filter-li:hover{
+        border-bottom: 8px solid $primary;
+    }
+
+    .bbr{
+        border-bottom: 8px solid $primary;
+    }
+}

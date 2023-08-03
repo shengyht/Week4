@@ -1,0 +1,25 @@
+.page{
+    padding-bottom: 80px;
+}
+.page-ul{
+    display: flex;
+    justify-content: center;
+    li{
+        border: 1px solid #555555;
+        padding:12px 16px;
+    }
+    li:hover{
+        background-color: #000000;
+        color:$white;
+    }
+}
+.page-default{
+    background-color: #000000;
+    color:$white;
+}
+.white{
+    color:#555555;
+}
+.white:hover{
+    color:$white;
+}

@@ -51,4 +51,25 @@
         height: 40px;
         padding-left: 16px;
     }
+    .filter{
+        width: 100%;
+    }
+    .page-banner{
+        img{
+            width: 50%;
+            object-fit:cover;
+        }
+    }
+    .combi-d-flex{
+        flex-wrap: wrap;
+        li{
+            width: 48%;
+        }
+    }
+    .combi-pic-wrap{
+        height: 160px;
+    }
+    .combi-product{
+        width: 100%;
+    }
 }
