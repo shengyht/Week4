@@ -72,4 +72,10 @@
     .combi-product{
         width: 100%;
     }
+    .collection-ul{
+        flex-wrap: wrap;
+        li{
+            width: 48%;
+        }
+    }
 }
