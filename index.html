@@ -10,26 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet">
-    <script type="module" crossorigin src="/Week4/assets/main-6ed1170c.js"></script>
-    <link rel="stylesheet" href="/Week4/assets/main-d5dad7d2.css">
+    <script type="module" crossorigin src="/Week4/assets/main-1bab90a4.js"></script>
+    <link rel="stylesheet" href="/Week4/assets/main-5ad65a67.css">
   </head>
   <body>
     <div class="header">
     <div class="header-wrap container">
         <h1><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo"></a></h1>
         <ul class="header-ul">
-            <li class="header-li"><a href="https://shengyht.github.io/Week4/product-1.html">系列鏡框</a></li>
-            <li class="header-li"><a href="#">門市據點</a></li>
-            <li class="header-li"><a href="#">部落格</a></li>
-            <li class="header-li"><a href="#">常見問題</a></li>
+            <li class="w-border"><a class="header-li" href="https://shengyht.github.io/Week4/product-1.html">系列鏡框</a></li>
+            <li class="w-border"><a class="header-li" href="#">門市據點</a></li>
+            <li class="w-border"><a class="header-li" href="#">部落格</a></li>
+            <li class="w-border"><a class="header-li" href="#">常見問題</a></li>
         </ul>
     </div>
 </div>
     <div class="banner">
-      <div class="banner-wrap container">
-        <p class="slogan-s">Promise-Desert 2020 早春系列</p>
-        <h2 class="slogan-b">看得清，才能看得遠</h2>
-        <a class="buy" href="#">立即購買</a>
+      <div class="container">
+        <div class="banner-wrap">
+          <p class="slogan-s">Promise-Desert 2020 早春系列</p>
+          <h2 class="slogan-b">看得清，才能看得遠</h2>
+          <a class="buy" href="#">立即購買</a>
+        </div>
       </div>
   </div>
   <div class="intro">
@@ -145,31 +147,35 @@
   </div>
   <div class="contact">
     <div class="contact-wrap container">
-        <h3>聯絡我們</h3>
-      <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-      <label for="name">姓名</label>
-      <br>
-      <input class="form" type="text" placeholder="陳小明">
-      <br>
-      <label for="tel">聯絡電話</label>
-      <br>
-      <input class="form" type="text" placeholder="0912-345-678">
-      <br>
-      <label for="email">電子郵件</label>
-      <br>
-      <input class="form" type="text" placeholder="example@email.com">
-      <br>
-      <label class="opinion" for="opinion">意見反應</label>
-      <br>
-      <input class="form" type="text" placeholder="請輸入您的意見">
-      <br>
-      <input class="checkbox mb-48" type="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
-      <br>
-      <div class="tac">
-        <a class="send tac" href="#">確認送出</a>
-      </div>
+        <h4>聯絡我們</h4>
+        <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+        <form action="" method="get" class="form-info">
+            <div class="form-info">
+                <label for="person">姓名</label>
+                <input class="form" type="text" placeholder="陳小明" name="person" id="person">
+            </div>
+            <div class="form-info">
+                <label for="tel" class="form">聯絡電話</label>
+                <input class="form" type="tel" placeholder="0912-345-678" name="tel" id="tel">
+            </div>
+            <div class="form-info">
+                <label for="mail">電子郵件</label>
+                <input class="form" type="email" placeholder="example@email.com" name="mail" id="mail">
+            </div>
+            <div class="form-info">
+                <label for="textarea">意見反應</label>
+                <textarea id="feedback" name="feedback" rows="8" cols="80">請輸入您的意見</textarea>
+            </div>
+            <div class="form-info">
+                <input class="checkbox mb-48" type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                <div class="tac">
+                    <button type="submit" class="send-btn">確認送出</button>
+                </div>
+            </div>
+        </form>
     </div>
-  </div>      
+</div>      
     
     <div class="footer">
     <div class="container">
